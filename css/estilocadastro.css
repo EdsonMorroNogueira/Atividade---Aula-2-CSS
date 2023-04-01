@@ -1,0 +1,127 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/* Começo do Header */
+
+.header{
+    width: 100%;
+    background-color: black;
+    border-bottom: solid aqua 3px;
+}
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo{
+    color: aqua;
+}
+.header ul #aqui{
+    font-weight: 1000;
+    color: aqua;
+}
+.navBar{
+    width: 300px;   
+    display:flex;
+    color: #bd9762;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navBar a{
+    text-decoration: none;
+    color: #bd9762;
+}
+/* Fim da Header */
+
+/* Começo do Banner */
+
+.banner{
+    background-image: url(../img/bg-jelly-fish-para_outras_pags.png);
+    height: 500px;
+    color: #fff;
+    display: flex;
+}
+.banner .container p span{
+    font-weight: 1000;
+}
+.banner .container{
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 30%;
+}
+.caixa_formulario{
+    background: white;
+    width: 400px;
+    height: 425px;
+    color: palevioletred;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.caixa_formulario h1{
+font-size: 30px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+.formulario button{
+    margin-top: 10px;
+    background: #e1374e;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width:120px;
+    align-self: center;
+    cursor: pointer;
+}
+.formulario input{
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid rgb(82, 143, 196);
+    border-radius: 10px;
+}
+.formulario span{
+    font-size: 20px;
+}
+
+/* Fim do Banner */
+
+/* Começo do Footer */
+
+.footer{
+    width: 100%;
+    background-color: aqua;
+}
+
+.footer .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.footer .container p{
+    width: 150px;
+    height: 13px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Fim do Footer */
